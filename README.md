@@ -43,22 +43,12 @@ cd the-last-of-guss
 npm ci
 ```
 
-### 4️⃣ Переменные окружения
-```bash
-cp .env.example .env
-```
-
-В `.env` обновите:
-```
-VITE_API_BASE_URL=http://v2991160.hosted-by-vdsina.ru
-```
-
-### 5️⃣ Запуск в режиме разработки
+### 4️⃣ Запуск в режиме разработки
 ```bash
 npm run dev
 ```
 
-### 6️⃣ Сборка
+### 5️⃣ Сборка
 ```bash
 npm run build
 npm run preview
